@@ -1,10 +1,10 @@
 class Sshr < Formula
   desc "A TUI for managing and connecting to SSH hosts"
   homepage "https://github.com/hoangneeee/sshr"
-  url "https://github.com/hoangneeee/sshr/releases/download/latest/sshr-x86_64-apple-darwin.tar.gz"
-  sha256 "sha256:25e5f5ac4daf557d4db87dfe071b8e90fec4092615a9f22553397736a0200666" # "shasum -a 256 <SHA256 của file tar.gz>"
+  url "https://github.com/hoangneeee/sshr/releases/download/v0.4.0/sshr-x86_64-apple-darwin.tar.gz"
+  sha256 "34c3c4a002f49674771583570c237fb87d79c14e6f06d23d113a1f0e5050f24f"
   license "Apache-2.0"
-  version "latest"
+  version "0.4.0"
 
   def install
     bin.install "sshr"
